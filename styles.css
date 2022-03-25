@@ -33,7 +33,7 @@ nav {
 }
 
 nav ul li {
-   display: inline;
+   display: block;
    line-height: 60px;
    padding: .5rem;
    margin: .5rem;
