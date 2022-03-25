@@ -33,19 +33,15 @@ nav {
 }
 
 nav ul li {
-   display: block;
+   display: inline;
    line-height: 60px;
-   padding: .5rem;
-   margin: .5rem;
 }
 nav ul li a {
    color: black !important;
    font-weight: bold;
    margin-right: 20px;
-   font-size: 14px;
+   font-size: 18px;
    text-decoration: none;
-   padding: .5rem;
-   margin: .5rem; 
 }
 
 nav ul li:not(:last-child):after {
