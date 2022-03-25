@@ -26,6 +26,14 @@ header p {
    line-height: 1.5;
    font-style: italic;
  }
+.hidden {
+  position: relative;
+  left: -10000px;
+  top: auto;
+}
+.hidden:focus {
+  left: 0;
+}
 nav {
    background-color: #ebebeb;
    height: 60px;
